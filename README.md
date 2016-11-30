@@ -6,7 +6,8 @@ Extensions to install
 
 [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-[JSStandard](https://marketplace.visualstudio.com/items?itemName=shinnn.standard)
 
 VSCode settings
-Make sure you use these local seetings
+Make sure you use these local settings in the `.vscode` folder.
+
+Do not run JS Standard. Instead, JS Standard rules are applied to `eslint` via a package called [eslint-config-standard](https://github.com/feross/eslint-config-standard)
