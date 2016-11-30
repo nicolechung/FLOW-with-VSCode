@@ -24,12 +24,12 @@ function checkForThing (a) {
 
 console.log(checkForThing(1).toString())
 
-function total(numbers: Array<number>) {
+function total (numbers: Array<number>) {
   var result = 0
   for (var i = 0; i < numbers.length; i++) {
     result += numbers[i]
   }
-  return result;
+  return result
 }
 
 total([1, 2, 3, 'Hello'])

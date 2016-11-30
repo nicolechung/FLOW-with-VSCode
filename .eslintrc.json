@@ -1,6 +1,14 @@
 {
-  "extends": ["plugin:flowtype/recommended"],
-  "plugins": ["flowtype"],
+  "extends": [
+      "standard",
+      "standard-flow"
+     ],
+  "plugins": [
+      "flowtype"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
   "parser": "babel-eslint",
   "rules": {
     "flowtype/boolean-style": [
@@ -60,7 +68,7 @@
   },
   "settings": {
     "flowtype": {
-      "onlyFilesWithFlowAnnotation": false
+      "onlyFilesWithFlowAnnotation": true
     }
   }
 }
