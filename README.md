@@ -11,3 +11,8 @@ VSCode settings
 Make sure you use these local settings in the `.vscode` folder.
 
 Do not run JS Standard. Instead, JS Standard rules are applied to `eslint` via a package called [eslint-config-standard](https://github.com/feross/eslint-config-standard)
+
+The local `.vscode` folder has settings that turns of `JS Standard`.
+
+Instead, the local `.eslintrc.json` file uses the sames rules as `JS Standard`.
+
